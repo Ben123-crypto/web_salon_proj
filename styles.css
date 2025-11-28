@@ -1,0 +1,31 @@
+.site-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+.logo-img {
+    float: left;
+}
+
+.site-nav ul li {
+  float: right;
+}
+
+.site-nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.site-nav ul li a:hover:not(.active) {
+  color: grey;
+}
+
+.site-nav ul li a.active {
+  background-color: #04AA6D;
+}
